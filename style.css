@@ -1,0 +1,272 @@
+:root {
+    --color-aqua: #13A6BA;
+    --color-black: #021112;
+    --color-grey: #677071;
+    --color-white: #ffffff;
+    --color-bgr: #FBEDDA;
+    --color-trparent: #CCCFD0;
+
+    --font-heading: 58px;
+    --font-text: 20px;
+    --font-normal: 14px;
+    --font-name: 26px;
+
+    --btn-paddings: 10px 25px;
+    --btn-radius: 8px;
+}
+
+
+body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Literata", serif;
+    
+}
+.container {
+    border: 2px solid yellow;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+header {
+    background-color:var(--color-bgr);
+    margin-bottom: 137px;
+}
+
+header .login {
+    /* border: 1px solid red; */
+    display: inline-block;
+
+}
+
+.btn {
+    color: var(--color-white);
+    background-color: var(--color-aqua);
+    padding: var(--btn-paddings);
+    border-radius: var(--btn-radius);
+    border: none;
+
+}
+
+header ul {
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin-left: 307px;
+    margin-right: 107px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: var(--color-black);
+}
+
+header ul li {
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin-right: 40px;
+    color: var(--color-black);
+}
+
+header a {
+    /* border: 1px solid red; */
+    display: inline-block;
+    color: var(--color-black);
+}
+
+header ul li:last-child {
+    margin-right: 0;
+}
+
+header .logo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.hero h1 {
+    text-align: center;
+    padding-top: 116px;
+    padding-bottom: 0;
+    font-size: 80px;
+    margin-top: 104px;
+}
+
+.hero p {
+    text-align: center;
+    color: var(--color-grey);
+    margin-bottom: 100px;
+}
+
+header .search-tabs {
+    padding-left: 20px;
+    border-bottom: 1px solid #eee;
+    margin: 20px 20px 20px 0;
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+}
+/* добавать смайлкики и rent */
+header .search-tabs .tab {
+    margin-right: 45px;
+    color: var(--color-trparent);
+    margin-top: 20px;
+}
+
+header .search-tabs .active {
+    border-bottom: 2px solid black;
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+header .search-box {
+    width: 780px;
+    background-color:var(--color-white) ;
+    margin-inline: 200px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+header .input-group {
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding-inline: 20px;
+    border-right: 1px solid #eee;
+}
+
+header .input-group:last-of-type {
+    border-right: none;
+    padding-right: 0;
+}
+
+header label {
+    font-size: var(--font-normal);
+    color: var(--color-grey);
+    font-size: var(--font-normal);
+    display: block;
+}
+
+header input[type="text"]{
+    font-size: var(--font-name);
+    border: none;
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+header .btn-submit {
+    padding: 16px 35px 16px 35px;
+    font-size: 18px;
+    vertical-align: top;
+    margin-left: 40px;
+}
+
+header img {
+    width: 1176px;
+}
+
+
+.objects h2 {
+    font-size: var(--font-heading);
+    padding-left: 20px;
+}
+
+.objects p {
+    font-size: var(--font-normal);
+    color: var(--color-grey);
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 98px;
+    display: inline-block;
+}
+
+.objects .controls {
+    display: inline-block;
+    margin-left: 650px;
+}
+
+/* поменять кнопки */
+.objects .controls input {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #772D8B ;
+    position: relative;
+    cursor: pointer;
+}
+
+.objects .controls input:last-child {
+    margin-right: 0;
+}
+
+
+.objects .controls input::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 9px;
+    height: 9px;
+    background-color: #772D8B;
+    border-radius: 50%;
+}
+
+.objects .card {
+    display: inline-block;
+    width: 385px;
+    border-radius: 40px;
+}
+
+.objects .card img {
+    width: 340px;
+    margin: 23px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+}
+
+.objects .card .name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+
+.objects .card .place {
+    color: var(--color-grey);
+    margin-bottom: 22px;
+    margin-top: 9px;
+    display: block;
+    padding-left: 20px;
+}
+
+.objects .card .price{
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.objects .card .characteristics {
+    color: #CCCFD0;
+    padding-left: 20px;
+}
+
+.objects .card .btn-details {
+    margin-top: 35px;
+    display: inline-block;
+    padding: 16px 115px;
+    margin-left: 33px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    background-color: var(--color-white);
+    border: 1px solid #13A6BA;
+    color: var(--color-aqua);
+}
+
+.objects .card:hover {
+    box-shadow: 2px 4px 55px 0px #000;
+    transition: 1.0s;
+}
+
+.objects .card:hover .btn-hover {
+    transition: 1.0s;
+    background-color: var(--color-aqua);
+    color: var(--color-white);
+}

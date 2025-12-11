@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bmark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a class="logo" href="#">bmark</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Listing</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <div class="login">
+                    <a class="btn" href="#">Sign In</a>
+                </div>
+            </nav>
+            <div class="hero">
+                <h1 class="title">Easy way to find a home <br> that’s perfect for you</h1>
+                <p class="desctiption">The find and most trusted marketplace of design & build house in the world.</p>
+            </div>
+
+            <div class="search-box">
+                <nav class="search-tabs">
+                    <a href="#" class="tab active">Rent</a>
+                    <a href="#" class="tab">Buy</a>
+                    <a href="#" class="tab">Sell</a>
+                </nav>
+
+                <form class="search-form">
+                    <div class="input-group location">
+                        <label for="location">Location</label>
+                        <input type="text" name="location" value="Los Angels" placeholder="Enter a location">
+                    </div>
+
+                    <div class="input-group property-type">
+                        <label for="property-type">Property Type</label>
+                        <input type="text"name="property_type" value="Delux" placeholder="Select type">
+                    </div>
+
+                    <div class="input-group average-price">
+                        <label for="price">Average Price</label>
+                        <input type="text"name="price" value="$7000 - 8000" placeholder="Enter price range">
+                    </div>
+
+                    <button type="submit" class="btn btn-submit">Search</button>
+                </form>
+            </div>
+            <img src="img/home.png" alt="home">
+        </div>
+    </header>
+
+    <section class="objects">
+        <div class="container">
+                <h2>See our properties</h2>
+                <p class="desctiption">The modern way to sell/buy/rent your own home.</p>
+
+            <div class="controls">
+                <input type="radio" name="control" id="control1" >
+                <label for="">rent</label>
+                <input type="radio" name="control" id="control2"
+                checked>
+                <label for="">buy</label>
+                <input type="radio" name="control" id="control3">
+                <label for="">sell</label>
+            </div> 
+
+            <div class="cards">
+                <div class="card">
+                    <img src="img/home1.png" alt="Nomaden Omah Sekut">
+                    <label class="name">Nomaden Omah Sekut</label> <br>
+                    <span class="place">San Diego, California, USA</span>
+                    <h2 class="price">$699,000</h2>
+                    <span class="characteristics">2 Beds &nbsp; | &nbsp; 1 Bath &nbsp; | &nbsp; 1,109 sqft</span>
+                    <br>
+                    <a class="btn btn-details btn-hover" href="#">See Details</a>
+                </div>
+
+                 <div class="card">
+                    <img src="img/home2.png" alt="Real Bluestyle House">
+                    <label class="name">Real Bluestyle House</label>
+                    <br>
+                    <span class="place">San Diego, California, USA</span>
+                    <h2 class="price">$10,00,000</h2>
+                    <span class="characteristics">3 Beds &nbsp; | &nbsp; 2 Bath &nbsp; | &nbsp; 1,309 sqft</span>
+                    <br>
+                    <a class="btn btn-details btn-hover" href="#">See Details</a>
+                </div>
+
+                 <div class="card">
+                    <img src="img/home3.png" alt="Luxury Umahu Mantappu">
+                    <label class="name">Luxury Umahu Mantappu</label>
+                    <br>
+                    <span class="place">San Diego, California, USA</span>
+                    <h2 class="price">$599,000</h2>
+                    <span class="characteristics">2 Beds &nbsp; | &nbsp; 1 Bath &nbsp; | &nbsp; 1,009 sqft</span>
+                    <br>
+                    <a class="btn btn-details btn-hover" href="#">See Details</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+</body>
+</html>
