@@ -389,8 +389,9 @@ header img {
     background-color: var(--color-white);
     border-radius: 5px;
     top: 300px;
-    right: 150px;
+    right: 100px;
     z-index: 1;
+    padding: 25px;
 }
 
 .location-showcase{
@@ -504,13 +505,13 @@ header img {
 .location-showcase .card-profile {
     display: inline-block;
     position: absolute;
-    bottom: 140px;
-    right: 650px;
+    bottom: 50px;
+    right: 600px;
     background-color: white;
     box-shadow: 8px 27px 69px 0 #0000003b;
     border-radius: 20px;
-    width: 307px;
-    height: 307px;
+    width: 357px;
+    height: 357px;
     text-align: center;
     padding-top: 33px;
 
@@ -524,6 +525,7 @@ header img {
 .location-showcase .card-profile .profile-avatar {
     background-color: #FBEDDA;
     border-radius: 50%;
+    margin-bottom: 14px;
 }
 
 .location-showcase .card-profile .real {
@@ -537,6 +539,7 @@ header img {
     font-size: 12px;
     text-align: left;
     border: none;
+    color: var(--color-grey);
 }
 
 .location-showcase .card-profile .profile-stats .followers {
@@ -545,6 +548,7 @@ header img {
     margin-left: 10px;
     padding: 0px;
     border: none;
+    color: var(--color-grey);
     margin-bottom: 26px;
 }
 
@@ -554,6 +558,7 @@ header img {
     border-radius: 10px;
     padding: 14px 43px;
     font-size: 10px;
+    margin-right: 22px;
 }
 
 .location-showcase .card-profile .btn-msg {
