@@ -158,6 +158,7 @@ header .btn-submit {
     font-size: 18px;
     vertical-align: top;
     margin-left: 40px;
+    cursor: pointer;
 }
 
 header img {
@@ -296,6 +297,7 @@ header img {
     position: absolute;
     bottom: 130px;
     left: 20px;
+    text-align: left;
 }
 
 .about .discover-place img {
@@ -314,6 +316,7 @@ header img {
 .about .discover-place .desctiption {
     color: var(--color-grey);
     font-size: 14px;
+    margin-bottom: 17px;
 }
 
 .about .house {
@@ -381,3 +384,182 @@ header img {
      margin-bottom: 80px;
 }
 
+.location-showcase .google {
+    position: absolute;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    top: 300px;
+    right: 150px;
+    z-index: 1;
+}
+
+.location-showcase{
+    padding-top: 314px;
+    position: relative;
+    background-image: url(img/dgr.png), url(img/dgr1.png);
+    background-repeat: no-repeat;
+    background-position: right top, center right; 
+    background-size: auto, contain;
+    padding-bottom: 400px;
+     
+}
+
+.location-showcase .left-side  .title {
+    font-size: var(--font-heading);
+}
+
+.location-showcase .left-side .description {
+    font-size: var(--font-text);
+    color: var(--color-grey);
+    display: inline-block;
+    width: 567px;
+    margin-bottom: 46px;
+}
+
+
+.location-showcase ul li {
+    display: inline-block;
+    padding-inline: 45px;
+    border-right: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+.location-showcase ul li:first-child {
+    padding-left: 0;
+}
+
+.location-showcase ul li:last-child {
+    padding-right: 0;
+    border: none;
+}
+
+.location-showcase ul li h3 {
+    font-size: 42px;
+}
+
+.location-showcase ul li span {
+    font-size: 18px;
+    color: var(--color-grey);
+}
+
+.location-showcase .card-main {
+    display: inline-block;
+    width: 583px;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    background-color: white;
+    box-shadow: 8px 27px 69px 0 #0000003b;
+    border-radius: 20px;
+}
+
+.location-showcase .card-main .fa-ellipsis-vertical {
+    color: var(--color-grey);
+    font-size: 20px;
+    margin-left: 510px;
+    padding: 20px;
+}
+
+.location-showcase .card-main .new-house {
+    padding: 0px 41px 0px 41px;
+}
+
+.location-showcase .card-main .human1 {
+    padding-left: 41px;
+    margin-top: 38px;
+}
+.location-showcase .card-main .human2,
+.location-showcase .card-main .human3,
+.location-showcase .card-main .human4 {
+    margin-left: -25px;
+}
+
+.location-showcase .card-main .people {
+    vertical-align: 20px;
+    margin-left: 30px;
+}
+
+.location-showcase .card-main .description{
+    padding-left: 41px;
+    margin-top: 34px;
+    width: 501px;
+    color: var(--color-grey);
+}
+
+.location-showcase .card-main .fa-comment,
+.location-showcase .card-main .fa-reply {
+    margin-left:  220px;
+    margin-top: 20px;
+    color: var(--color-grey);
+    font-size: 30px;
+    margin-bottom: 29px;
+
+}
+
+.location-showcase .card-main .link {
+    vertical-align: 5px;
+    color: var(--color-grey);
+    margin-left: 9px;
+}
+
+.location-showcase .card-profile {
+    display: inline-block;
+    position: absolute;
+    bottom: 140px;
+    right: 650px;
+    background-color: white;
+    box-shadow: 8px 27px 69px 0 #0000003b;
+    border-radius: 20px;
+    width: 307px;
+    height: 307px;
+    text-align: center;
+    padding-top: 33px;
+
+}
+
+.location-showcase .card-profile .city {
+    font-size: var(--font-text);
+    font-weight: bold;
+    
+}
+.location-showcase .card-profile .profile-avatar {
+    background-color: #FBEDDA;
+    border-radius: 50%;
+}
+
+.location-showcase .card-profile .real {
+    font-size: 10px;
+    color: var(--color-grey);
+    margin-bottom: 26px;
+}
+
+.location-showcase .card-profile .profile-stats .posts {
+    display: inline-block;
+    font-size: 12px;
+    text-align: left;
+    border: none;
+}
+
+.location-showcase .card-profile .profile-stats .followers {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 0px;
+    border: none;
+    margin-bottom: 26px;
+}
+
+.location-showcase .card-profile .btn-follow {
+    color: var(--color-white);
+    background-color: #772D8B;
+    border-radius: 10px;
+    padding: 14px 43px;
+    font-size: 10px;
+}
+
+.location-showcase .card-profile .btn-msg {
+    color: var(--color-grey);
+    border: 1px solid var(--color-grey);
+    border-radius: 10px;
+    padding: 14px 43px;
+    font-size: 10px;
+}
