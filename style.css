@@ -384,6 +384,17 @@ header img {
      margin-bottom: 80px;
 }
 
+.location-showcase .save {
+    position: absolute;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    top: 550px;
+    right: 200px;
+    z-index: 1;
+    padding: 7px 6px;
+    box-shadow: 8px 27px 69px 0 #0000003b;
+}
+
 .location-showcase .google {
     position: absolute;
     background-color: var(--color-white);
@@ -392,6 +403,7 @@ header img {
     right: 100px;
     z-index: 1;
     padding: 25px;
+    box-shadow: 8px 27px 69px 0 #0000003b;
 }
 
 .location-showcase{
@@ -568,3 +580,66 @@ header img {
     padding: 14px 43px;
     font-size: 10px;
 }
+
+.reviews {
+    background-color: #FDF6ED;
+    position: relative;
+    margin-top: 152px;
+}
+
+.reviews .left-feedback .client {
+    position: absolute;
+    bottom: 0;
+    left: 111px;
+}
+
+.reviews .left-feedback .bgr4 {
+    position: absolute;
+    top: 282px;
+    left: 822px;
+}
+
+.reviews .left-feedback .quotation {
+    position: absolute;
+    top: 53px;
+    right: 59px;
+}
+
+.reviews .right-feedback {
+    display: inline-block;
+    margin: 189px 150px 189px 1075px;
+    height: 694px;
+}
+
+.reviews .testimontails {
+    color: var(--color-aqua);
+    line-height: 42px;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.reviews .right-feedback h2 {
+    font-size: var(--font-heading);
+}
+
+.reviews .desctiption {
+    font-size: 18px;
+    width: 494px;
+    margin-top: 50px;
+}
+
+.reviews .customer-name {
+    margin-top: 58px;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.reviews .customer {
+    color: var(--color-grey);
+    font-size: 18px;
+}
+
+
+
+                
