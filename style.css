@@ -25,7 +25,7 @@ body, * {
     
 }
 .container {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -112,6 +112,17 @@ header .search-tabs {
     padding-bottom: 10px;
     /* border: 1px solid red; */
 }
+
+header .search-form .fa-location-dot,
+header .search-form .fa-key,
+header .search-form .fa-tag {
+    color: var(--color-aqua);
+    width: 10px;
+    display: inline-block;
+    /* border: 1px solid red; */
+    margin-right: 4px;
+}
+
 /* добавать смайлкики и rent */
 header .search-tabs .tab {
     margin-right: 45px;
@@ -145,11 +156,13 @@ header .input-group:last-of-type {
     padding-right: 0;
 }
 
-header label {
+header span {
     font-size: var(--font-normal);
     color: var(--color-grey);
     font-size: var(--font-normal);
-    display: block;
+    display: inline-block;
+    /* border: 1px solid red; */
+    width: 100px;
 }
 
 header input[type="text"]{
@@ -192,31 +205,56 @@ header img {
     margin-left: 650px;
 }
 
-/* поменять кнопки */
-.objects .controls input {
+.objects .controls label {
+    margin-right: 44px;
+}
+
+.objects .controls label:last-child {
+    margin-right: 0;
+}
+
+.objects .controls input[type="radio"] {
     appearance: none;
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--color-grey);
     border-radius: 50%;
-    border: 1px solid #772D8B ;
     position: relative;
     cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+
+.controls input[type="radio"] + label {
+  color: var(--color-grey);
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: var(--font-name);
+
+}
+
+.controls input[type="radio"]:checked {
+  border-color: #772D8B;
+}
+
+.controls input[type="radio"]:checked::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: #772D8B;
+    border-radius: 50%;
+}
+
+.controls input[type="radio"]:checked + label {
+  color: #772D8B;
 }
 
 .objects .controls input:last-child {
     margin-right: 0;
-}
-
-
-.objects .controls input::after {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 9px;
-    height: 9px;
-    background-color: #772D8B;
-    border-radius: 50%;
 }
 
 .objects .cards {
@@ -297,7 +335,7 @@ header img {
 .about .discover-place {
     box-shadow: -12px 16px 46px #00000036;
     display: inline-block;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: var(--color-white);
     border-radius: var(--btn-radius);
     padding: 14px 40px 16px 19px;
@@ -730,7 +768,7 @@ header img {
 }
 
 footer {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 footer a {
@@ -743,7 +781,7 @@ footer nav ul {
 }
 
 footer .contacts {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     vertical-align: top;
     margin-left: 150px;  
     margin-right: 153px; 
