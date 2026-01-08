@@ -338,6 +338,7 @@ header img {
     width: 700px;
     margin-left: 130px;
     text-align: left;
+    
 }
 
 .about .about-house .advantage {
@@ -415,6 +416,14 @@ header img {
     background-size: auto, contain;
     padding-bottom: 400px;
      
+}
+
+.location-showcase .left-side {
+    margin-left: 150px;
+}
+
+.location-showcase .stats-bar {
+    margin-left: 150px;
 }
 
 .location-showcase .left-side  .title {
@@ -640,6 +649,76 @@ header img {
     font-size: 18px;
 }
 
+.subscription {
+    margin-top: 254px;
+    margin-bottom: 300px;
+}
+
+.subscription .left-subscribe {
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 209px;
+    position: relative;
+}
+
+.subscription .left-subscribe .stick {
+    position: absolute;
+    top: 0;
+    left: -180px;
+}
+
+.subscription .right-subscribe {
+    display: inline-block;
+    vertical-align: 100px;
+    position: relative;
+}
+
+.subscription .right-subscribe .points {
+    position: absolute;
+    bottom: -90px;
+    right: -40px;
+}
+
+.subscription .right-subscribe .circle {
+    position: absolute;
+    bottom: -270px;
+    right: -80px;
+}
 
 
-                
+.subscription .left-subscribe h2 {
+    font-size: var(--font-heading);
+    width: 694px;
+    margin-top: 17px;
+    margin-bottom: 40px;
+}
+
+.subscription .left-subscribe p {
+    font-size: var(--font-text);
+    width: 567px;
+    color: var(--color-grey);
+}
+
+.subscription input[type="email"]{
+    padding: 38px 10px 38px 45px;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 715px;
+    border: none;
+    border: 1px solid #C8F3F9;
+}
+
+
+.subscription input[type="submit"]{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 21px 46px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.subscription input[type="email"]:focus {
+    outline: none;
+}
+
