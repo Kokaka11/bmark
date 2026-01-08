@@ -73,6 +73,13 @@ header a {
     color: var(--color-black);
 }
 
+header a img {
+    /* border: 1px solid red; */
+    display: inline-block;
+    color: var(--color-black);
+    width: 163px;
+}
+
 header ul li:last-child {
     margin-right: 0;
 }
@@ -722,3 +729,71 @@ header img {
     outline: none;
 }
 
+footer {
+    border: 1px solid blue;
+}
+
+footer a {
+    color: var(--color-black);
+}
+
+footer .contacts, footer nav,
+footer nav ul {
+    display: inline-block;
+}
+
+footer .contacts {
+    border: 1px solid red;
+    vertical-align: top;
+    margin-left: 150px;  
+    margin-right: 153px; 
+}
+
+footer .contacts .logo {
+    margin-bottom: 38px;
+    display: inline-block; 
+}
+
+footer .contacts p {
+    width: 338px;
+    font-size: var(--font-text);
+    color: var(--color-grey);
+}
+
+footer ul{
+    list-style: none;
+    margin-right: 158px;
+    vertical-align: top;
+}
+
+footer ul:nth-child(4){
+    margin-right: 0;
+    width: 283px;
+}
+
+footer ul li:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    line-height: 0;
+    margin-top: 10px;
+}
+
+footer ul li {
+    font-size: var(--font-text);
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+
+footer .socials {
+    display: inline-block;
+}
+
+footer .social-item {
+    display: inline-block;
+    border: 1px solid var(--color-aqua);
+    width: 41px;
+    height: 38px;
+    margin-right: 25px;
+    text-align: center;
+}
