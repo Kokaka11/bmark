@@ -171,6 +171,7 @@ header input[type="text"]{
     width: 150px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    outline: none;
 }
 
 header .btn-submit {
@@ -221,7 +222,6 @@ header img {
     border-radius: 50%;
     position: relative;
     cursor: pointer;
-    outline: none;
     transition: 0.2s;
 }
 
@@ -325,11 +325,13 @@ header img {
 }
 
 .about{
-    position: relative;
     background-image: url(img/Ellipse10.png);
     background-repeat: no-repeat;
     text-align: center;
-    position: relative;
+}
+
+.about .left-place {
+        position: relative;
 }
 
 .about .discover-place {
@@ -340,8 +342,8 @@ header img {
     border-radius: var(--btn-radius);
     padding: 14px 40px 16px 19px;
     position: absolute;
-    bottom: 130px;
-    left: 20px;
+    top: 1000px;
+    left: 0px;
     text-align: left;
 }
 
@@ -434,8 +436,8 @@ header img {
     position: absolute;
     background-color: var(--color-white);
     border-radius: 5px;
-    top: 550px;
-    right: 200px;
+    top: 360px;
+    right: 60px;
     z-index: 1;
     padding: 7px 6px;
     box-shadow: 8px 27px 69px 0 #0000003b;
@@ -445,8 +447,8 @@ header img {
     position: absolute;
     background-color: var(--color-white);
     border-radius: 5px;
-    top: 300px;
-    right: 100px;
+    top: 45px;
+    right: -90px;
     z-index: 1;
     padding: 25px;
     box-shadow: 8px 27px 69px 0 #0000003b;
@@ -454,13 +456,17 @@ header img {
 
 .location-showcase{
     padding-top: 314px;
-    position: relative;
+    border: 1px solid red;
     background-image: url(img/dgr.png), url(img/dgr1.png);
     background-repeat: no-repeat;
     background-position: right top, center right; 
     background-size: auto, contain;
     padding-bottom: 400px;
      
+}
+
+.left-cards {
+        position: relative;
 }
 
 .location-showcase .left-side {
@@ -512,8 +518,8 @@ header img {
     display: inline-block;
     width: 583px;
     position: absolute;
-    top: 200px;
-    right: 150px;
+    top: -600px;
+    right: 200px;
     background-color: white;
     box-shadow: 8px 27px 69px 0 #0000003b;
     border-radius: 20px;
@@ -571,7 +577,7 @@ header img {
 .location-showcase .card-profile {
     display: inline-block;
     position: absolute;
-    bottom: 50px;
+    bottom: -300px;
     right: 600px;
     background-color: white;
     box-shadow: 8px 27px 69px 0 #0000003b;
@@ -637,17 +643,21 @@ header img {
 
 .reviews {
     background-color: #FDF6ED;
-    position: relative;
     margin-top: 152px;
+}
+
+.reviews .left-feedback {
+    position: relative;
 }
 
 .reviews .left-feedback .client {
     position: absolute;
-    bottom: 0;
-    left: 111px;
+    top: -200px;
+    left: 0;
 }
 
 .reviews .left-feedback .bgr4 {
+    display: block;
     position: absolute;
     top: 282px;
     left: 822px; 
@@ -697,19 +707,14 @@ header img {
 .subscription {
     margin-top: 254px;
     margin-bottom: 300px;
+    position: relative;
+    
 }
 
 .subscription .left-subscribe {
     display: inline-block;
     margin-left: 150px;
     margin-right: 209px;
-    position: relative;
-}
-
-.subscription .left-subscribe .stick {
-    position: absolute;
-    top: 0;
-    left: -180px;
 }
 
 .subscription .right-subscribe {
@@ -718,16 +723,27 @@ header img {
     position: relative;
 }
 
-.subscription .right-subscribe .points {
-    position: absolute;
-    bottom: -90px;
-    right: -40px;
+.subscription .bgr {
+    position: relative;
+
 }
 
-.subscription .right-subscribe .circle {
+.subscription .stick {
     position: absolute;
-    bottom: -270px;
-    right: -80px;
+    top: 0;
+    left: -20px;
+}
+
+.subscription .points {
+    position: absolute;
+    bottom: -30px;
+    right: 0px;
+}
+
+.subscription .circle {
+    position: absolute;
+    bottom: -250px;
+    right: 0px;
 }
 
 
@@ -749,7 +765,6 @@ header img {
     font-size: 18px;
     border-radius: 20px;
     width: 715px;
-    border: none;
     border: 1px solid #C8F3F9;
 }
 
@@ -762,11 +777,6 @@ header img {
     border-radius: 15px;
     font-size: 20px;
 }
-
-.subscription input[type="email"]:focus {
-    outline: none;
-}
-
 footer {
     /* border: 1px solid blue; */
 }

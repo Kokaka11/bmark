@@ -48,19 +48,19 @@
                     <div class="input-group location">
                         <i class="fa-solid fa-location-dot"></i>
                         <span>Location</span><br>
-                        <input type="text" name="location" value="Los Angels" placeholder="Enter a location">
+                        <input type="text" name="location" value="Los Angels">
                     </div>
 
                     <div class="input-group property-type">
                         <i class="fa-solid fa-key"></i>
                         <span>Property Type</span><br>
-                        <input type="text" name="property" value="Delux" placeholder="Select type">
+                        <input type="text" name="property" value="Delux">
                     </div>
 
                     <div class="input-group average-price">
                         <i class="fa-solid fa-tag"></i>
                         <span>Average Price</span><br>
-                        <input type="text" name="price" value="$7000 - 8000" placeholder="Enter price range">
+                        <input type="text" name="price" value="$7000 - 8000">
                     </div>
 
                     <button type="submit" class="btn btn-submit">Search</button>
@@ -124,13 +124,15 @@
 
     <section class="about">
         <div class="container">
-            <div class="discover-place">
-                <span>Discover Place</span>
-                <p class="desctiption">San Diego, CA</p>
-                <img src="img/home1.png" alt="Nomaden Omah Sekut">
-                <img src="img/home2.png" alt="Real Bluestyle House">
-                <img src="img/home3.png" alt="Luxury Umahu Mantappu">
-                <a href=""><img src="img/Arrow2.png" alt="Arrow2"></a>
+            <div class="left-place">
+                <div class="discover-place">
+                    <span>Discover Place</span>
+                    <p class="desctiption">San Diego, CA</p>
+                    <img src="img/home1.png" alt="Nomaden Omah Sekut">
+                    <img src="img/home2.png" alt="Real Bluestyle House">
+                    <img src="img/home3.png" alt="Luxury Umahu Mantappu">
+                    <a href=""><img src="img/Arrow2.png" alt="Arrow2"></a>
+                </div>
             </div>
 
             <div class="house">
@@ -180,8 +182,6 @@
     </section>
 
     <section class="location-showcase">
-        <img class="google" src="img/google.png" alt="g">
-        <img class="save" src="img/Save.png" alt="save">
         <div class="container">
             <div class="left-side">
             <h2 class="title">What’s happening in <br> San Diego, CA</h2>
@@ -208,7 +208,11 @@
                 </ul>
             </div>
 
+        <div class="left-cards">
+            
             <div class="card-main">
+                 <img class="google" src="img/google.png" alt="g">
+                 <img class="save" src="img/Save.png" alt="save">
                     <i class="fa-solid fa-ellipsis-vertical"></i>
                     <img class="new-house" src="img/new-house.png" alt="house">
                     <img class="human1" src="img/human1.png" alt="human1">
@@ -241,6 +245,8 @@
                     <a href="" class="btn-msg"> <i class="fa-regular fa-comment"></i> Messages</a>
                 </div>
             </div>
+
+        </div>
     </section>
 
     <section class="reviews">
@@ -265,8 +271,13 @@
 
     <section class="subscription">
         <div class="container">
-            <div class="left-subscribe">
+
                 <img class="stick" src="img/bgr7.png" alt="stick">
+                <img class="circle" src="img/bgr5.png" alt="circle">
+                <img class="points" src="img/bgr6.png" alt="points">
+
+            <div class="left-subscribe">
+                
                 <h2>Ready to find your next home?</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
             </div>
@@ -274,10 +285,8 @@
             <div class="right-subscribe">
                 <form>
                     <input type="email" name="email" placeholder="Enter your email">
-                    <input class="btn" type="submit" value="Subscribe">
+                    <input class="btn"  type="submit" value="Subscribe">
                 </form>
-                <img class="circle" src="img/bgr5.png" alt="circle">
-                <img class="points" src="img/bgr6.png" alt="points">
             </div>
         </div>
     </section>
