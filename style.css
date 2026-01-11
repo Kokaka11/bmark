@@ -456,7 +456,6 @@ header img {
 
 .location-showcase{
     padding-top: 314px;
-    /* border: 1px solid red; */
     background-image: url(img/dgr.png), url(img/dgr1.png);
     background-repeat: no-repeat;
     background-position: right top, center right; 
@@ -777,9 +776,9 @@ header img {
     border-radius: 15px;
     font-size: 20px;
 }
-footer {
-    /* border: 1px solid blue; */
-}
+/* footer {
+    border: 1px solid blue;
+} */
 
 footer a {
     color: var(--color-black);
