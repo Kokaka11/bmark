@@ -456,7 +456,7 @@ header img {
 
 .location-showcase{
     padding-top: 314px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url(img/dgr.png), url(img/dgr1.png);
     background-repeat: no-repeat;
     background-position: right top, center right; 
